@@ -15,7 +15,7 @@ const Navigation = ({ cartCount, onCartClick, isMobileMenuOpen, setIsMobileMenuO
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-24">
           <div className="flex items-center">
-            <img src={logo} alt="Artisan Haven" className="h-24 object-contain" />
+            <img src={logo} alt="Nuna Arte" className="h-24 object-contain" />
           </div>
           
           <div className="hidden md:flex space-x-8">
