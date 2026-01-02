@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "shop": "Shop",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Handcrafted with Love",
+    "subtitle": "Unique candles, soaps, epoxy art & knitted treasures",
+    "cta": "Shop Now"
+  },
+  "products": {
+    "title": "Our Collection",
+    "addToCart": "Add to Cart"
+  },
+  "about": {
+    "title": "About Nuna Arte",
+    "content": "Welcome to Nuna Arte, where traditional craftsmanship meets modern design. Each product is made with care and attention to detail, bringing you joy and inspiration."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "message": "Message",
+    "send": "Send"
+  },
+  "cart": {
+    "title": "Your Cart",
+    "empty": "Your cart is empty",
+    "total": "Total",
+    "checkout": "Checkout",
+    "remove": "Remove"
+  }
+}

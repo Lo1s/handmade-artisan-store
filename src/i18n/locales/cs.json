@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "shop": "Obchod",
+    "about": "O nás",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Vyrobeno s láskou",
+    "subtitle": "Jedinečné svíčky, mýdla, epoxidové umění a pletené poklady",
+    "cta": "Nakupovat"
+  },
+  "products": {
+    "title": "Naše kolekce",
+    "addToCart": "Přidat do košíku"
+  },
+  "about": {
+    "title": "O Nuna Arte",
+    "content": "Vítejte v Nuna Arte, kde se tradiční řemeslo setkává s moderním designem. Každý produkt je vyroben s péčí a pozorností k detailům, aby vám přinesl radost a inspiraci."
+  },
+  "contact": {
+    "title": "Kontaktujte nás",
+    "email": "Email",
+    "phone": "Telefon",
+    "address": "Adresa",
+    "message": "Zpráva",
+    "send": "Odeslat"
+  },
+  "cart": {
+    "title": "Váš košík",
+    "empty": "Váš košík je prázdný",
+    "total": "Celkem",
+    "checkout": "Pokračovat",
+    "remove": "Odebrat"
+  }
+}

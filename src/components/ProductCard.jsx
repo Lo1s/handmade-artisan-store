@@ -1,6 +1,8 @@
 import { Heart, ShoppingCart } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const ProductCard = ({ product, onAddToCart }) => {
+  const { t } = useTranslation();
   
   return (
     <div className="group bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
@@ -11,14 +13,14 @@ const ProductCard = ({ product, onAddToCart }) => {
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
         />
         <div className="absolute top-3 right-3">
-          <button className="p-2 bg-white/90 rounded-full hover:bg-rose-100 transition">
+          <button className="p-2 bg-white/90 rounded-full hover:bg-emerald-100 transition">
             <Heart className="w-5 h-5 text-gray-600" />
           </button>
         </div>
       </div>
       
       <div className="p-5">
-        <p className="text-sm text-rose-600 font-medium mb-1">{product.category}</p>
+        <p className="text-sm text-emerald-600 font-medium mb-1">{product.category}</p>
         <h3 className="text-lg font-semibold text-gray-900 mb-2">{product.name}</h3>
         <p className="text-sm text-gray-600 mb-4 line-clamp-2">{product.description}</p>
         
@@ -26,10 +28,10 @@ const ProductCard = ({ product, onAddToCart }) => {
           <span className="text-2xl font-bold text-gray-900">${product.price}</span>
           <button 
             onClick={() => onAddToCart(product)}
-            className="bg-rose-600 text-white px-4 py-2 rounded-full hover:bg-rose-700 transition flex items-center space-x-2"
+            className="bg-emerald-600 text-white px-4 py-2 rounded-full hover:bg-emerald-700 transition flex items-center space-x-2"
           >
             <ShoppingCart className="w-4 h-4" />
-            <span>Add</span>
+            <span>{t('products.addToCart')}</span>
           </button>
         </div>
       </div>
