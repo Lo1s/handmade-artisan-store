@@ -14,11 +14,13 @@
     "addToCart": "Add to Cart"
   },
   "about": {
-    "title": "About Nuna Arte",
-    "content": "Welcome to Nuna Arte, where traditional craftsmanship meets modern design. Each product is made with care and attention to detail, bringing you joy and inspiration."
+    "title": "About Our Craft",
+    "paragraph1": "Every piece in our collection is lovingly handcrafted with attention to detail and quality. From hand-poured candles using premium soy wax to intricately knitted handbags, each item tells a story of dedication and artistry.",
+    "paragraph2": "We believe in sustainable practices, using natural ingredients and eco-friendly materials whenever possible. When you purchase from us, you're not just buying a product – you're supporting small-batch craftsmanship and bringing a piece of handmade love into your home."
   },
   "contact": {
     "title": "Contact Us",
+    "subtitle": "Have questions or custom order requests? We'd love to hear from you!",
     "email": "Email",
     "phone": "Phone",
     "address": "Address",

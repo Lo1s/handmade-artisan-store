@@ -15,10 +15,12 @@
   },
   "about": {
     "title": "O Nuna Arte",
-    "content": "Vítejte v Nuna Arte, kde se tradiční řemeslo setkává s moderním designem. Každý produkt je vyroben s péčí a pozorností k detailům, aby vám přinesl radost a inspiraci."
+    "paragraph1": "Každý kus v naší sbírce je vyroben s láskou a pozorností k detailům a kvalitě. Od ručně vylévaných svíček s prémiovým sójovým voskem až po jemně pletené kabelky, každý předmět vypráví příběh oddanosti a uměleckého řemesla.",
+    "paragraph2": "Věříme na udržitelné postupy s používáním přírodních složek a ekologických materiálů kdykoli je to možné. Když si od nás něco koupíte, nekupujete jen produkt - podporujete malohromadné řemeslo a přinášíte do svého domova kousek ručně vyrobené lásky."
   },
   "contact": {
     "title": "Kontaktujte nás",
+    "subtitle": "Máte otázky nebo požadavek na vlastní objednávku? Rádi od vás uslyšíme!",
     "email": "Email",
     "phone": "Telefon",
     "address": "Adresa",
