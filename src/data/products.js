@@ -1,67 +1,91 @@
 const products = [
   {
     id: 1,
-    name: "Lavender Dreams Candle",
-    category: "Candles",
-    price: 24.99,
-    image: "https://images.unsplash.com/photo-1602874801006-2abc422ed6e1?w=800&q=80",
-    description: "Hand-poured soy candle with natural lavender essential oil"
+    name: "Dárková sada - Jantarová",
+    category: "Gift Sets",
+    price: 49.99,
+    image: "/images/darkova_sada_jantarova.jpeg",
+    description: "Beautiful amber-colored glass gift set"
   },
   {
     id: 2,
-    name: "Honey Oat Bath Soap",
-    category: "Bath Soaps",
-    price: 12.99,
-    image: "https://images.unsplash.com/photo-1600857544200-b18a088cc13f?w=800&q=80",
-    description: "Gentle handmade soap with organic honey and oats"
+    name: "Dárková sada - Mechově zelená",
+    category: "Gift Sets",
+    price: 49.99,
+    image: "/images/darkova_sada_mechove_zelena.jpeg",
+    description: "Lovely moss green handcrafted gift set"
   },
   {
     id: 3,
-    name: "Ocean Wave Epoxy Tray",
-    category: "Epoxy Gifts",
-    price: 45.00,
-    image: "https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=800&q=80",
-    description: "Stunning resin serving tray with ocean-inspired design"
+    name: "Dárková sada - Pomenkově modrá",
+    category: "Gift Sets",
+    price: 49.99,
+    image: "/images/darkova_sada_pomenkove_modra.jpeg",
+    description: "Elegant forget-me-not blue gift set"
   },
   {
     id: 4,
-    name: "Vanilla Chai Candle",
-    category: "Candles",
-    price: 24.99,
-    image: "https://images.unsplash.com/photo-1598518619776-eae3f8a34eac?w=800&q=80",
-    description: "Warm and cozy vanilla chai scented soy candle"
+    name: "Dárková sada - Sklenice Detail",
+    category: "Gift Sets",
+    price: 45.00,
+    image: "/images/darkova_sada_sklenice_detail.jpeg",
+    description: "Detailed glass gift set with fine craftsmanship"
   },
   {
     id: 5,
-    name: "Rose Clay Face Soap",
-    category: "Bath Soaps",
-    price: 14.99,
-    image: "https://images.unsplash.com/photo-1607006675887-a3c8c27c0e84?w=800&q=80",
-    description: "Luxurious facial soap with French pink clay"
+    name: "Dárková sada - Sklenice Detail 2",
+    category: "Gift Sets",
+    price: 45.00,
+    image: "/images/darkova_sada_sklenice_detail2.jpeg",
+    description: "Premium glass gift set with beautiful details"
   },
   {
     id: 6,
-    name: "Knitted Tote Bag - Cream",
-    category: "Handbags",
-    price: 38.00,
-    image: "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800&q=80",
-    description: "Hand-knitted cotton tote bag, perfect for everyday use"
+    name: "Dárková sada - Talíčky Detail",
+    category: "Gift Sets",
+    price: 55.00,
+    image: "/images/darkova_sada_tacky_detail.jpeg",
+    description: "Exquisite handmade glass plate gift set"
   },
   {
     id: 7,
-    name: "Galaxy Epoxy Coaster Set",
-    category: "Epoxy Gifts",
-    price: 32.00,
-    image: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?w=800&q=80",
-    description: "Set of 4 cosmic-themed resin coasters"
+    name: "Klubko - Blue",
+    category: "Yarn Balls",
+    price: 18.99,
+    image: "/images/klubko_blue.jpeg",
+    description: "Hand-dyed blue yarn ball, perfect for crafting"
   },
   {
     id: 8,
-    name: "Knitted Crossbody Bag",
-    category: "Handbags",
-    price: 52.00,
-    image: "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=800&q=80",
-    description: "Stylish hand-knitted crossbody bag with adjustable strap"
+    name: "Klubko - Brown",
+    category: "Yarn Balls",
+    price: 18.99,
+    image: "/images/klubko_brown.jpeg",
+    description: "Warm brown hand-dyed yarn ball"
+  },
+  {
+    id: 9,
+    name: "Klubko - Green",
+    category: "Yarn Balls",
+    price: 18.99,
+    image: "/images/klubko_green.jpeg",
+    description: "Fresh green hand-dyed yarn ball"
+  },
+  {
+    id: 10,
+    name: "Klubko - Purple",
+    category: "Yarn Balls",
+    price: 18.99,
+    image: "/images/klubko_purple.jpeg",
+    description: "Vibrant purple hand-dyed yarn ball"
+  },
+  {
+    id: 11,
+    name: "Klubko - Red",
+    category: "Yarn Balls",
+    price: 18.99,
+    image: "/images/klubko_red.jpeg",
+    description: "Bold red hand-dyed yarn ball"
   }
 ];
 
