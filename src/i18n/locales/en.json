@@ -11,7 +11,8 @@
   },
   "products": {
     "title": "Our Collection",
-    "addToCart": "Add to Cart"
+    "addToCart": "Add to Cart",
+    "currency": "$"
   },
   "about": {
     "title": "About Our Craft",

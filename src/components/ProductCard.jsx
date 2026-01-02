@@ -2,7 +2,16 @@ import { Heart, ShoppingCart } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const ProductCard = ({ product, onAddToCart }) => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  
+  const formatPrice = () => {
+    const currency = t('products.currency');
+    if (i18n.language === 'cs') {
+      return `${product.price} ${currency}`;
+    } else {
+      return `${currency}${product.price}`;
+    }
+  };
   
   return (
     <div className="group bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col h-full">
@@ -25,7 +34,7 @@ const ProductCard = ({ product, onAddToCart }) => {
         <p className="text-sm text-gray-600 mb-4 line-clamp-2 flex-grow">{product.description}</p>
         
         <div className="flex items-center justify-between mt-auto">
-          <span className="text-2xl font-bold text-gray-900">${product.price}</span>
+          <span className="text-2l font-bold text-gray-900">{formatPrice()}</span>
           <button 
             onClick={() => onAddToCart(product)}
             className="bg-emerald-600 text-white px-3 py-2 rounded-full hover:bg-emerald-700 transition flex items-center space-x-1 whitespace-nowrap text-sm"

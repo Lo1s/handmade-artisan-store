@@ -11,7 +11,8 @@
   },
   "products": {
     "title": "Naše kolekce",
-    "addToCart": "Přidat do košíku"
+    "addToCart": "Přidat do košíku",
+    "currency": "Kč"
   },
   "about": {
     "title": "O Nuna Arte",
