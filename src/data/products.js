@@ -4,7 +4,7 @@ const products = [
     name: "Dárková sada - Jantarová",
     category: "Gift Sets",
     price: 49.99,
-    image: "${import.meta.env.BASE_URL}images/darkova_sada_jantarova.jpeg",
+    image: `${import.meta.env.BASE_URL}images/darkova_sada_jantarova.jpeg`,
     description: "Beautiful amber-colored glass gift set"
   },
   {
@@ -12,7 +12,7 @@ const products = [
     name: "Dárková sada - Mechově zelená",
     category: "Gift Sets",
     price: 49.99,
-    image: "${import.meta.env.BASE_URL}images/darkova_sada_mechove_zelena.jpeg",
+    image: `${import.meta.env.BASE_URL}images/darkova_sada_mechove_zelena.jpeg`,
     description: "Lovely moss green handcrafted gift set"
   },
   {
@@ -20,7 +20,7 @@ const products = [
     name: "Dárková sada - Pomenkově modrá",
     category: "Gift Sets",
     price: 49.99,
-    image: "${import.meta.env.BASE_URL}images/darkova_sada_pomenkove_modra.jpeg",
+    image: `${import.meta.env.BASE_URL}images/darkova_sada_pomenkove_modra.jpeg`,
     description: "Elegant forget-me-not blue gift set"
   },
   {
@@ -28,7 +28,7 @@ const products = [
     name: "Dárková sada - Sklenice Detail",
     category: "Gift Sets",
     price: 45.00,
-    image: "${import.meta.env.BASE_URL}images/darkova_sada_sklenice_detail.jpeg",
+    image: `${import.meta.env.BASE_URL}images/darkova_sada_sklenice_detail.jpeg`,
     description: "Detailed glass gift set with fine craftsmanship"
   },
   {
@@ -36,7 +36,7 @@ const products = [
     name: "Dárková sada - Sklenice Detail 2",
     category: "Gift Sets",
     price: 45.00,
-    image: "${import.meta.env.BASE_URL}images/darkova_sada_sklenice_detail2.jpeg",
+    image: `${import.meta.env.BASE_URL}images/darkova_sada_sklenice_detail2.jpeg`,
     description: "Premium glass gift set with beautiful details"
   },
   {
@@ -44,7 +44,7 @@ const products = [
     name: "Dárková sada - Talíčky Detail",
     category: "Gift Sets",
     price: 55.00,
-    image: "${import.meta.env.BASE_URL}images/darkova_sada_tacky_detail.jpeg",
+    image: `${import.meta.env.BASE_URL}images/darkova_sada_tacky_detail.jpeg`,
     description: "Exquisite handmade glass plate gift set"
   },
   {
@@ -52,7 +52,7 @@ const products = [
     name: "Klubko - Blue",
     category: "Yarn Balls",
     price: 18.99,
-    image: "${import.meta.env.BASE_URL}images/klubko_blue.jpeg",
+    image: `${import.meta.env.BASE_URL}images/klubko_blue.jpeg`,
     description: "Hand-dyed blue yarn ball, perfect for crafting"
   },
   {
@@ -60,7 +60,7 @@ const products = [
     name: "Klubko - Brown",
     category: "Yarn Balls",
     price: 18.99,
-    image: "${import.meta.env.BASE_URL}images/klubko_brown.jpeg",
+    image: `${import.meta.env.BASE_URL}images/klubko_brown.jpeg`,
     description: "Warm brown hand-dyed yarn ball"
   },
   {
@@ -68,7 +68,7 @@ const products = [
     name: "Klubko - Green",
     category: "Yarn Balls",
     price: 18.99,
-    image: "${import.meta.env.BASE_URL}images/klubko_green.jpeg",
+    image: `${import.meta.env.BASE_URL}images/klubko_green.jpeg`,
     description: "Fresh green hand-dyed yarn ball"
   },
   {
@@ -76,7 +76,7 @@ const products = [
     name: "Klubko - Purple",
     category: "Yarn Balls",
     price: 18.99,
-    image: "${import.meta.env.BASE_URL}images/klubko_purple.jpeg",
+    image: `${import.meta.env.BASE_URL}images/klubko_purple.jpeg`,
     description: "Vibrant purple hand-dyed yarn ball"
   },
   {
@@ -84,7 +84,7 @@ const products = [
     name: "Klubko - Red",
     category: "Yarn Balls",
     price: 18.99,
-    image: "${import.meta.env.BASE_URL}images/klubko_red.jpeg",
+    image: `${import.meta.env.BASE_URL}images/klubko_red.jpeg`,
     description: "Bold red hand-dyed yarn ball"
   }
 ];
